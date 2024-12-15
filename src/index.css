@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Піднімає картку */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Легкий тіньовий ефект */
+    background-color: #f9f9f9; /* Змінює фон на світліший */
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.green__gradient1 {
+    position: absolute;
+    width: 545px;
+    height: 573px;
+    left: 1522px;
+    top: 22px;
+    background: #1FFF1A;
+    filter: blur(50px);
+
+}
+.green__gradient2 {
+    position: absolute;
+    width: 735px;
+    height: 772px;
+    left: -404px;
+    top: 238px;
+    background: #1FFF1A;
+    filter: blur(100px);
+}
+
+
+.title-style {
+    text-align: left;
+    font-size: 32px;
+    font-weight: 500;
+    width: 400px;
+    height: auto;
+}
+
+
+.wrap-style {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.body-style {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.4;
+}
+
+
+.wrap-day-style {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.post-img {
+    width: 553px;
+    height: 246px;
+    background-color: #F5F5F5;
+    border-radius: 24px;
+    position: relative;
+}
+.list-posts-container {
+    height: 856px;
+    width: 471px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border-radius: 24px;
+    gap: 20px;
+}
+
+.card-photo {
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    height: 136px;
+    width: 225px;
+    align-self: center;
+}
+
+
