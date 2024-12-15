@@ -15,7 +15,7 @@ The project includes the following functionality:
 ∙ **Package Manager**: npm  
 
 ## How to Run the Project  
-1. Clone the repository to your local machine: git clone https://github.com/username/project-website-react.git  
+1. Clone the repository to your local machine: git clone https://github.com/dangernazik/Test_Figma_Project.git 
 2. Navigate to the project directory: cd project-website-react  
 3. Install dependencies: npm install  
 4. Start the development server: *npm run dev*  
